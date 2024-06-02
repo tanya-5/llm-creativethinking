@@ -1,0 +1,4 @@
+""
+"Q: Mr. and Mrs. Mustard have six daughters and each daughter has one brother. But there are only 9 people in the family, how is that possible?"
+["A: some daughters get married and have their own family.", "A: each daughter shares the same brother.", "A: some brothers were not loved by family and moved away.", "A: none of above."]
+Accuracy: 0.448

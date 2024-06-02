@@ -1,0 +1,13 @@
+,model,mask strategy,mask accuracy,accuracy
+0,flan-t5-large-no-finetune,below_average,tensor(0.4004),0.20118343195266272
+1,flan-t5-large-no-finetune,lowest,tensor(0.7120),0.1893491124260355
+2,flan-t5-large-rs-finetune,below_average,tensor(0.7495),0.5285996055226825
+3,flan-t5-large-rs-finetune,lowest,tensor(0.9250),0.5226824457593688
+4,flan-t5-large-adv-finetune,below_average,tensor(0.7613),0.5700197238658777
+5,flan-t5-large-adv-finetune,lowest,tensor(0.9428),0.5936883629191322
+6,flan-t5-xl-no-finetune,below_average,tensor(0.4063),0.28205128205128205
+7,flan-t5-xl-no-finetune,lowest,tensor(0.6627),0.2879684418145957
+8,flan-t5-xl-rs-finetune,below_average,tensor(0.7613),0.5542406311637081
+9,flan-t5-xl-rs-finetune,lowest,tensor(0.9270),0.5818540433925049
+10,flan-t5-xl-adv-finetune,below_average,tensor(0.7337),0.6390532544378699
+11,flan-t5-xl-adv-finetune,lowest,tensor(0.9191),0.6429980276134122
