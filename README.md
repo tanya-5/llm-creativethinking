@@ -16,7 +16,7 @@ Common Mistake: An eagle.
 
 2. Fine-tuning dataset: We took Puzzles from RIDDLESENSE dataset. Baseline models struggled to consistently apply reasoning across puzzle variants. To alleviate this, we create adversarial versions of the RIDDLESENSE dataset.
 
-**Experiment:**
+**Experiments:**
 1. Fine-tuning: For smaller models such as RoBERTa-L (354M) and FlanT5-L (780M). Our FlanT5 base-lines follow a prompting method, which involves presenting both the question and answer options jointly to the model and generating the symbol associated with the chosen answer.
 We fine-tune RoBERTa-L for 3 epochs with a learning rate of 1e −6 and batch size of 4. 
 We fine-tune FlanT5 models for 3 epochs, with a learning rate of 3e −4, weight decay of 0.01 and batch size of 8.
@@ -41,7 +41,7 @@ The first step of the POE method comprises scoring each option to identify and e
 These metrics provide a comprehensive assessment of the models' creative reasoning abilities and robustness under different testing conditions. All assessments were conducted in zero-shot settings.
 All evaluations are conducted in zero-shot setting.
 
-**Results**
+**Results:**
 1. Baseline - Baseline implementations 
 - FlanT5 (Large and XL variants), an instruction-fine-tuned version of T5
 - RoBERTa-L, the vanilla RoBERTa model
@@ -72,7 +72,6 @@ All evaluations are conducted in zero-shot setting.
 
 **Conclusion:**
 Based on our analysis, we fine-tune our models on the RIDDLESENSE dataset and our adversarial version of the RIDDLESENSE dataset, leading to significant improvements in the performance of FlanT5 models. Notably, FlanT5-XL RSadv with an over-all accuracy of 65.09% outperforms ChatGPT with an overall accuracy of 62.68%. 
-
 
 
 **Notes:**
