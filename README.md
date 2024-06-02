@@ -65,7 +65,8 @@ All evaluations are conducted in zero-shot setting.
 | FlanT5-XL (RS<sub>adv</sub>; LoRA) | 47.34     | 50.3      | 55.03     | 40.83     | 28.99        | 50.89     |
 | ChatGPT*                           | 60.77     | 59.33     | 67.94     | 50.72     | 39.71        | 62.68     |
 
-*ChatGPT results are taken from original [BrainTeaser repo](https://github.com/1171-jpg/BrainTeaser)
+*ChatGPT results are taken from original [BrainTeaser repo](https://github.com/1171-jpg/BrainTeaser)  
+
 2. Impact of PoE: Mask Accuracy is the ratio of instances that retain their correct option after elimination in the first step. While our fine-tuned models have > 90% masking accuracies, we still do not observe a significant improvement in performance for any models. This is consistent with the finding from Ma and Du (2023) that POE performs better on tasks that require logical reasoning, where elimination is straightforward based on logic or factual information.
 
 
